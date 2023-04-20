@@ -1,35 +1,32 @@
 {
   "projects": [
     {
-      "name": "Teste 123",
-      "budget": "100",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 50,
-      "services": [
-        0,
-        {
-          "name": "Serviço novo",
-          "cost": "50",
-          "description": "custo serviço",
-          "id": "ae8695c3-778d-4a23-836b-061bf7931567"
-        }
-      ],
-      "id": 1
-    },
-    {
-      "name": "Teste",
-      "budget": "124790",
+      "name": "Site Americanas",
+      "budget": "10000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
       "cost": 0,
       "services": [
-        0
+        {
+          "name": "Desenvolvedor PHP",
+          "cost": "100",
+          "description": "desenvolver uma página em linguagem PHP",
+          "id": "89b66c50-0235-4fb2-a015-2a327ba6f572"
+        }
       ],
+      "id": 1
+    },
+    {
+      "name": "Site Academia",
+      "budget": "20202002",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": null,
+      "services": [],
       "id": 2
     }
   ],
