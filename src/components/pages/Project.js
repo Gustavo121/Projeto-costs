@@ -196,7 +196,7 @@ function Project() {
                     name={service.name}
                     cost={service.cost}
                     description={service.description}
-                    key={service.key}
+                    key={service.id}
                     handleRemove={removeService}
                   />
                 ))
